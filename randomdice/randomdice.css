@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+}
+#buttons{
+    font-size: 2em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(231, 90%, 79%);
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#buttons:hover{
+    background-color: hsl(230, 88%, 62%);
+}
+#buttons:active{
+    transform: scale(0.95); /*reduce size for pressed effect*/ 
+}
+.myLabels{
+    width: 100px;
+    height: 100px;
+}
